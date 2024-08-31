@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name=" viewport" content="width=device-width">
+    <title>CSS INTRODUCTION</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<style>
+    * {
+        background-color: rebeccapurple;
+    }
+</style>
+
+<body>
+    <div class="header">
+        <h1 style="border: double 4px;">PROJECT DAMMZY</h1>
+        <p>Created by me: </p>
+    </div>
+    <div class="Navbar">
+        <li><a href="#">Sign up</a></li>
+        <li> <a href="#">Introduction</a></li>
+        <li><a href="#">Examples</a></li>
+
+    </div><br><br><br><br><br><br>
+
+    <div class="Login info">
+        <h2> Project Dammzy Login Info</h2>
+    </div>
+    <form action="action_page.php" method="post">
+        <div class="imgcontainer">
+            <img src="data:image/jpeg;base64,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"
+                height="200" width="300" alt="Avatar" class="avatar"><br><br><br>
+        </div>
+
+        <div class="container">
+            <label for="uname"><b>Username</b></label><br><br>
+            <input type="text" placeholder="Enter Username" name="uname" required><br><br>
+
+            <label for="psw"><b>Password</b></label><br><br>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+
+            <button type="submit">Login</button><br><br>
+            <label>
+                <input type="checkbox" checked="checked" name="remember"> Remember me
+            </label>
+        </div>
+
+        <div class="container" style="background-color:#f1f1f1"><br><br>
+            <button type="button" class="cancelbtn">Cancel</button><br><br>
+            <span class="psw">Forgot <a href="#">password ?</a></span><br>
+        </div><br>
+        <h3 style="border: dotted 1px;">AUTOMOBILE ENGINERRING</h3>
+        <u><u>
+                <p>What is it all about? </p><br>
+            </u></u>
+        <p>Automobile engineering is a branch study of engineering[citation needed] which teaches manufacturing,
+            designing,
+            mechanical mechanisms as well as operations of automobiles. It is an introduction[citation needed] to
+            vehicle
+            engineering which deals with motorcycles, cars, buses, trucks, etc. It includes branch study of mechanical,
+            electronic,
+            software and safety elements. Some of the engineering attributes and disciplines that are of importance to
+            the
+            automotive engineer include:</p><br><br><br>
+
+
+        Safety engineering: Safety engineering is the assessment of various crash scenarios and their impact on the
+        vehicle
+        occupants. These are tested against very stringent governmental regulations. Some of these requirements include:
+        seat
+        belt and air bag functionality testing, front and side-impact testing, and tests of rollover resistance.
+        Assessments are
+        done with various methods and tools, including computer crash simulation (typically finite element analysis),
+        crash-test
+        dummy, and partial system sled and full vehicle crashes.
+
+
+        Visualization of how a car deforms in an Asymmetrical crash using finite element analysis.[1]
+        Fuel economy/emissions: Fuel economy is the measured fuel efficiency of the vehicle in miles per gallon or
+        kilometers
+        per liter. Emissions-testing covers the measurement of vehicle emissions, including hydrocarbons, nitrogen
+        oxides (NOx),
+        carbon monoxide (CO), carbon dioxide (CO2), and evaporative emissions.
+
+        NVH engineering (noise, vibration, and harshness): NVH involves customer feedback (both tactile [felt] and
+        audible
+        [heard]) concerning a vehicle. While sound can be interpreted as a rattle, squeal, or hot, a tactile response
+        can be
+        seat vibration or a buzz in the steering wheel. This feedback is generated by components either rubbing,
+        vibrating, or
+        rotating. NVH response can be classified in various ways: powertrain NVH, road noise, wind noise, component
+        noise, and
+        squeak and rattle. Note, there are both good and bad NVH qualities. The NVH engineer works to either eliminate
+        bad NVH
+        or change the "bad NVH" to good (i.e., exhaust tones).
+
+        Vehicle electronics: Automotive electronics is an increasingly important aspect of automotive engineering.
+        Modern
+        vehicles employ dozens of electronic systems.[1] These systems are responsible for operational controls such as
+        the
+        throttle, brake and steering controls; as well as many comfort-and-convenience systems such as the HVAC,
+        infotainment,
+        and lighting systems. It would not be possible for automobiles to meet modern safety and fuel-economy
+        requirements
+        without electronic controls.
+
+        Performance: Performance is a measurable and testable value of a vehicle's ability to perform in various
+        conditions.
+        Performance can be considered in a wide variety of tasks, but it generally considers how quickly a car can
+        accelerate
+        (e.g. standing start 1/4 mile elapsed time, 0–60 mph, etc.), its top speed, how short and quickly a car can come
+        to a
+        complete stop from a set speed (e.g. 70-0 mph), how much g-force a car can generate without losing grip,
+        recorded
+        lap-times, cornering speed, brake fade, etc. Performance can also reflect the amount of control in inclement
+        weather
+        (snow, ice, rain).
+
+        Shift quality: Shift quality is the driver's perception of the vehicle to an automatic transmission shift event.
+        This is
+        influenced by the powertrain (Internal combustion engine, transmission), and the vehicle (driveline, suspension,
+        engine
+        and powertrain mounts, etc.) Shift feel is both a tactile (felt) and audible (heard) response of the vehicle.
+        Shift
+        quality is experienced as various events: transmission shifts are felt as an upshift at acceleration (1–2), or a
+        downshift maneuver in passing (4–2). Shift engagements of the vehicle are also evaluated, as in Park to Reverse,
+        etc.
+
+        Durability / corrosion engineering: Durability and corrosion engineering is the evaluation testing of a vehicle
+        for its
+        useful life. Tests include mileage accumulation, severe driving conditions, and corrosive salt baths.
+
+        Drivability: Drivability is the vehicle's response to general driving conditions. Cold starts and stalls, RPM
+        dips, idle
+        response, launch hesitations and stumbles, and performance levels all contribute to the overall drivability of
+        any given
+        vehicle.
+
+        Cost: The cost of a vehicle program is typically split into the effect on the variable cost of the vehicle, and
+        the
+        up-front tooling and fixed costs associated with developing the vehicle. There are also costs associated with
+        warranty
+        reductions and marketing.
+
+        Program timing: To some extent programs are timed with respect to the market, and also to the
+        production-schedules of
+        assembly plants. Any new part in the design must support the development and manufacturing schedule of the
+        model.
+
+        Assembly feasibility: It is easy to design a module that is hard to assemble, either resulting in damaged units
+        or poor
+        tolerances. The skilled product-development engineer works with the assembly/manufacturing engineers so that the
+        resulting design is easy and cheap to make and assemble, as well as delivering appropriate functionality and
+        appearance.
+
+        Quality management: Quality control is an important factor within the production process, as high quality is
+        needed to
+        meet customer requirements and to avoid expensive recall campaigns. The complexity of components involved in the
+        production process requires a combination of different tools and techniques for quality control. Therefore, the
+        International Automotive Task Force (IATF), a group of the world's leading manufacturers and trade
+        organizations,
+        developed the standard ISO/TS 16949. This standard defines the design, development, production, and (when
+        relevant)
+        installation and service requirements. Furthermore, it combines the principles of ISO 9001 with aspects of
+        various
+        regional and national automotive standards such as AVSQ (Italy), EAQF (France), VDA6 (Germany) and QS-9000
+        (USA). In
+        order to further minimize risks related to product failures and liability claims for automotive electric and
+        electronic
+        systems, the quality discipline functional safety according to ISO/IEC 17025 is applied.
+
+        Since the 1950s, the comprehensive business approach total quality management (TQM) has operated to continuously
+        improve
+        the production process of automotive products and components. Some of the companies who have implemented TQM
+        include
+        Ford Motor Company, Motorola and Toyota Motor Company.
+
+
+
+
+
+    </form>
+</body>
+
+
+
+
+</html>
